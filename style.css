@@ -683,3 +683,40 @@ a {
   transition: 0.2s;
   color: #30bae7;
 }
+
+/* ПРИЯТНЫЕ АНИМАЦИИ */
+
+#body {
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.uiux,
+.webdes,
+.htmlcss,
+.grdes {
+  transition: all 0.4s;
+}
+
+.uiux:hover,
+.webdes:hover,
+.htmlcss:hover,
+.grdes:hover {
+  transform: scale(1.1);
+}
+
+.client {
+  transition: all 0.4s;
+}
+
+.client:hover {
+  transform: scale(1.1);
+}
